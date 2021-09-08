@@ -1,0 +1,26 @@
+.xtrick{
+    display:none;
+}
+.otrick{
+    display:none;
+}
+.activeTrick{
+    display: block;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    border: 2px solid #5CB615;
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+}
+.gameover{
+    height: 100px;
+}
+
+/* tr:first-child td{
+    border-top: 0;
+} */
