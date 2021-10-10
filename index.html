@@ -7,8 +7,6 @@
     <title>triki</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script src="javascript.js">
-</script>
 <body>
     <main>
         <section>
@@ -16,8 +14,8 @@
             
             <table>
                 <tr>
-                    <td class="cell" id="1"> <div class="otrick"><img src="otrick.png" alt=""> </div><div class="xtrick"><img src="xtrick.png" alt=""></div></td>
                     <td class="cell" id="0"> <div class="otrick"><img src="otrick.png" alt=""> </div><div class="xtrick"><img src="xtrick.png" alt=""></div></td>
+                    <td class="cell" id="1"> <div class="otrick"><img src="otrick.png" alt=""> </div><div class="xtrick"><img src="xtrick.png" alt=""></div></td>
                     <td class="cell" id="2"> <div class="otrick"><img src="otrick.png" alt=""> </div><div class="xtrick"><img src="xtrick.png" alt=""></div></td>
                 </tr>
                 <tr>
@@ -34,11 +32,13 @@
         </section>
         <section>
             <div class="gameover">
-
+                
             </div>
-            <button>Reset!</button>
+            <button onclick="reStart()">Reset!</button>
         </section>
     </main>
     
-</body>
-</html>
+    <script src="javascript.js">
+    </script>
+    </body>
+    </html>
